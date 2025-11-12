@@ -1,0 +1,181 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: #121212;
+    color: white;
+    overflow-x: hidden;
+}
+
+.title {
+    background-image: url('Fondo_Header.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: white; 
+    text-align: center;
+    padding: 6rem 2rem;
+    position: relative;
+}
+
+.title h1 {
+    font-size: 4rem;
+    text-shadow: 3px 3px 0 black, -3px -3px 0 white;
+    letter-spacing: 2px;
+}
+
+.title h2 {
+    font-size: 1.8rem;
+    margin-top: 1rem;
+    color: #fff;
+    text-shadow: 2px 2px 0 #121212;
+}
+
+.about-me {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 4rem 2rem;
+    position: relative;
+    clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 95%);
+    border-bottom: 25px solid #E60012;
+    text-align: left;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.about-me h2 {
+    font-size: 2.5rem;
+    color: #E60012;
+    text-shadow: 2px 2px 0 white;
+    margin-bottom: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.about-me p {
+    max-width: 800px;
+    margin: 0 auto 2rem;
+    line-height: 1.6;
+    font-size: 1.2rem;
+    margin-left: 0;   
+    padding-left: 0;  
+    text-align: left;
+}
+
+.languages {
+    margin-top: 2rem;
+}
+
+.languages h3 {
+    font-size: 1.8rem;
+    color: #fff;
+    text-shadow: 2px 2px 0 #E60012;
+    margin-bottom: 1rem;
+}
+
+.languages ul {
+    list-style: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.languages li {
+    margin: 0.5rem 0;   
+    letter-spacing: 1px;
+}
+
+.languages li span {
+    display: inline-block;   
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.languages li span:hover {
+    color: #E60012;
+    transform: scale(1.05);
+}
+
+
+.languages li:hover {
+    color: #E60012;
+    transform: scale(1.05);
+}
+
+.job {
+    background: #1a1a1a;
+    padding: 4rem 1rem;
+    position: relative;
+}
+
+.job-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.job-content img {
+    width: 320px;
+    border: 5px solid white;
+    transform: rotate(-3deg);
+    box-shadow: 10px 10px 0 #E60012;
+}
+
+.job-text {
+    max-width: 500px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.job-text h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #E60012;
+    text-shadow: 2px 2px 0 white;
+}
+
+.job-text p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.job-text a {
+     display: inline-block;
+    background-color: #E60012;
+    color: white;
+    text-decoration: none;
+    padding: 0.8rem 1.4rem;
+    border: 3px solid white;
+    box-shadow: 5px 5px 0 #121212;
+    transition: all 0.2s;
+}
+
+.job-text a:hover {
+    transform: translate(-3px, -3px);
+    box-shadow: 8px 8px 0 #fff;
+}
+
+.contact {
+    background: #E60012;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
+}
+
+.contact a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+}
+
+.contact a:hover {
+    color: #121212;
+    background: #fff;
+}
